@@ -28,11 +28,11 @@ metadata:
     Microservices architecture
 
 clouds:
-  - aws: eu-west-1
+  - aws: us-west-1
 
 applications:
   - ms-data-store:
-  #   instances: 1  # Change to deploy more instance of the ms
+instances: 2  # Change to deploy more instance of the ms
   - ms-api-gateway
   - ms-orders-manager
   - ms-payments-service
